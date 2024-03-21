@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<style>
+    @font-face {
+        font-family:Madimi-one;
+        src: url(../Fonts/Madimi_One/MadimiOne-Regular.ttf);
+    }
+    *{
+        margin: 10px;
+        padding: 10px;
+        outline: 3px solid purple;
+        border-radius: 10%;
+
+    }
+    h2{
+        color: rgb(255,0,0);
+        font-family:Madimi-one;
+        font-weight: 500;
+        letter-spacing: 2px;
+        word-spacing: 20px;
+    }
+    h3{
+        color: rgb(0,0,255);
+    }
+    h4{
+        color:#0F0;
+    }
+    #outlined{
+        outline: 1px solid;
+        width: 325px;
+        font-size: smaller;
+        background-color: black;
+        color: white;
+    }
+    #blue{
+        background-color: rgba(0,0,255,0.5);
+    }
+    #orange{
+        background-color: rgba(255, 166, 0, 0.542);
+    }
+</style>
+<body>
+    <h2>Make my text red using an RGB color(without the help of a color picker)</h2>
+    <h3>Make my text blue using an RGB color(without the help of a color picker )</h3>
+    <h4>Make my text green using a hexadecimal color(witout the help of a color picker)</h4>
+    <p id="outlined">Give me a black background and white text using rgb colors </p>
+    <p id="blue">Give me a fully blue background color (no red or green) AND make me 50% transparent using an RGBA color</p>
+    <p id="orange">Make my background color  a shade  of orange using  a hex color(use a color picker if it helps) AND make  me 50%  transparent using  opacity</p>
+</body>
+</html>
